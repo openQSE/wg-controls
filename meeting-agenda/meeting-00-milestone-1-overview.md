@@ -2,7 +2,6 @@
 
 **Purpose:** Establish a shared understanding of Milestone 1, its relationship to the OpenQSE reference architecture, and the eight-week delivery plan leading to SC26.  
 **Target release:** Landscape & Requirements v0.1 by November 13, 2026  
-**Validation milestone:** SC26, November 15–20, 2026
 
 ## 1. Milestone 1 at a glance
 
@@ -118,7 +117,6 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 - Logical roles and interface IDs are provisionally stable.
 - Technologies are mapped as examples.
 - Missing ecosystem perspectives have owners.
-- Initial SC26 coverage is visible.
 
 ### Gate 3 — Requirements and gap baseline
 
@@ -172,12 +170,6 @@ Research, drafting, and detailed review happen asynchronously. Biweekly meetings
 - evidence conflicts;
 - risk and dependency escalation; and
 - confirmation of owners and deadlines.
-
-### Every action is explicit
-
-Each meeting ends with:
-
-> **Decision or question → owner → deliverable → deadline → status**
 
 ### Protect the SC26 date
 
