@@ -116,15 +116,6 @@ flowchart LR
 
 **What sets that deadline?** The syndrome round time sets throughput. Reaction time sets the logical clock speed, and while waiting the system must keep running extra rounds.
 
-## A10. Relationship to SC26
-
-- [ ] Demonstrated at SC26
-- [ ] Partially exercised at SC26
-- [ ] Architecturally represented but not exercised
-- [ ] Outside the SC26 implementation
-
-Notes: To be classified by the SC26 architecture lead.
-
 ---
 
 # Part B — Inside the control stack
