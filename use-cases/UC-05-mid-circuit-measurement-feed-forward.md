@@ -9,7 +9,7 @@
 | Timing regime | Real-time (within a shot) — term pending System Architecture WG alignment |
 | Fault-tolerance assumption | Either. Runs on current hardware; also a building block for FTQC |
 | Qubit modality | Modality-agnostic. Deadlines scale with each modality's coherence and measurement times |
-| Owner (Part A) | Michael Ferguson (proposed) |
+| Owner (Part A) |  |
 | Control expert (Part B) | TBD |
 | Reviewer | TBD |
 | Last updated | 2026-10-20 |
@@ -116,15 +116,6 @@ Paths 4a and 4b happen entirely inside the control-system box and become visible
 **Rough deadline:** < 1 µs for superconducting qubits; 1 µs–1 ms for trapped-ion and neutral-atom qubits (estimate, to be confirmed by modality experts).
 
 **What sets that deadline?** The coherence time of the qubits waiting during the decision. The latency budget is a small fraction of that time, because every bit of dead time adds error.
-
-## A10. Relationship to SC26
-
-- [ ] Demonstrated at SC26
-- [ ] Partially exercised at SC26
-- [ ] Architecturally represented but not exercised
-- [ ] Outside the SC26 implementation
-
-Notes: To be classified by the SC26 architecture lead.
 
 ---
 
