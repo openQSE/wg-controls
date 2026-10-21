@@ -9,7 +9,7 @@
 | Timing regime | Near-time (between programs in a session) — term pending System Architecture WG alignment |
 | Fault-tolerance assumption | Hybrid, no full fault tolerance (also needed under FTQC for calibration) |
 | Qubit modality | Modality-agnostic |
-| Owner (Part A) | Santiago Nunez-Corrales (proposed) |
+| Owner (Part A) |  |
 | Control expert (Part B) | TBD |
 | Reviewer | TBD |
 | Last updated | 2026-10-20 |
@@ -118,15 +118,6 @@ flowchart LR
 **Rough deadline:** 1 ms–1 s per iteration (estimate). This is a soft deadline: missing it costs QPU utilization, not correctness.
 
 **What sets that deadline?** The time the QPU spends executing each iteration's shots. Classical overhead per iteration should be small compared with it. For calibration, the whole procedure must finish well within the device's drift timescale (minutes to hours, modality dependent).
-
-## A10. Relationship to SC26
-
-- [ ] Demonstrated at SC26
-- [ ] Partially exercised at SC26
-- [ ] Architecturally represented but not exercised
-- [ ] Outside the SC26 implementation
-
-Notes: To be classified by the SC26 architecture lead.
 
 ---
 
